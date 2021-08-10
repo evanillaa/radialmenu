@@ -6,6 +6,8 @@
 
 You need [Polyzonehelper](https://github.com/nerohiro/nh-context) for interact with garage as I did in this video: https://streamable.com/ev3r03
 
+### WARNING: There is no query whether the vehicle is outside or inside in the code below
+
 save your current qb-garages\SharedConfig.lua first then change Garages table with this:
 ```
 Garages = {
