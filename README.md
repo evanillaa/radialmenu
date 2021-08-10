@@ -164,7 +164,6 @@ and add these last things in your qb-garages\client\client.lua
 ```
 RegisterNetEvent('qb-garages:putingarage')
 AddEventHandler('qb-garages:putingarage', function()
-    local curVeh = GetVehiclePedIsIn(ped)
     local ped = PlayerPedId()
     coordA = GetEntityCoords(ped, 1)
     coordB = GetOffsetFromEntityInWorldCoords(ped, 0.0, 100.0, 0.0)
